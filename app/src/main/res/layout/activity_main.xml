@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.metropolia.helloworld6.MainActivity">
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reset"
+        android:layout_alignStart="@+id/result" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select month"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        android:layout_above="@+id/tammi"
+        android:layout_alignStart="@+id/tammi" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tammi"
+        android:layout_alignEnd="@+id/tammi"
+        android:text="Replay" />
+
+    <Button
+        android:id="@+id/tammi"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/helmi"
+        android:layout_alignStart="@+id/helmi"
+        android:layout_marginBottom="-5dp"
+        android:text="January"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/helmi"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/maalis"
+        android:layout_alignStart="@+id/maalis"
+        android:layout_marginBottom="-5dp"
+        android:text="February"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/maalis"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/huhti"
+        android:layout_alignStart="@+id/huhti"
+        android:layout_marginBottom="-5dp"
+        android:text="March"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/huhti"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/touko"
+        android:layout_alignStart="@+id/touko"
+        android:layout_marginBottom="-5dp"
+        android:text="April"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/touko"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/kesad"
+        android:layout_alignStart="@+id/kesad"
+        android:layout_marginBottom="-5dp"
+        android:text="May"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/kesad"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/heinad"
+        android:layout_alignStart="@+id/heinad"
+        android:layout_marginBottom="-5dp"
+        android:text="June"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/heinad"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/elo"
+        android:layout_alignStart="@+id/elo"
+        android:layout_marginBottom="-5dp"
+        android:text="July"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/elo"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/syys"
+        android:layout_alignStart="@+id/syys"
+        android:layout_marginBottom="-5dp"
+        android:text="August"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/syys"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/loka"
+        android:layout_alignStart="@+id/loka"
+        android:layout_marginBottom="-5dp"
+        android:text="September"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/loka"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/marras"
+        android:layout_alignStart="@+id/marras"
+        android:layout_marginBottom="-5dp"
+        android:text="October"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/marras"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/joulu"
+        android:layout_alignStart="@+id/joulu"
+        android:layout_marginBottom="-5dp"
+        android:text="November"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/joulu"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="December"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+</RelativeLayout>
